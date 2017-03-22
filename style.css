@@ -21,7 +21,7 @@ p2 {
   color:#262626;
   margin: 0px 0 70px 0;
   font-family: 'Lobster', cursive;
-  text-align: justify;
+  word-wrap: break-word;
 }
 
 .navbar {
@@ -35,6 +35,14 @@ p2 {
   background-size: cover;
 }
 
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #a6a6a6;
+    margin-top:20px;
+    font-family: cursive;
+}
 a {
   color: #7466ff;
   font-size: 18px;
@@ -101,7 +109,7 @@ p {
 }
 
 span {
-  font-size: 10px;
+  font-size: 18px;
   position: center;
 }
 

@@ -32,7 +32,7 @@
 
 		   <ul>
               <li><a href="https://trp15jy.github.io/project-cfg/projectshe.html">Home</a></li>
-              <li><a>Who Is She?</a></li>
+              <li><a><span>Who Is She?</span></a></li>
               <li><a>Countries</a>
                 <ul>
                   <li><a href="http://thelatinkitchen.com/">Latin America</a></li>
@@ -41,14 +41,18 @@
               </li>
               <li><a href="https://tanick2000.github.io/">She Sees</a></li>
               <li><a>Contact She</a></li>
+
         </ul>
     </div>      
 
 	<header>
 
 <h1>She Eats...<span>Memorable bites through the world</span></h1>
-<p2>"I'm a London native who left my home to explore the world slowly and thoroughly through my love of food! I’m just a little obsessed with photography, ice-skating, and starting books I have no intention of finishing."</p2>
-	
+<div class="container">
+  <div class="row">
+     <div class="col-md-6 col-md-offset-3"><p2>"I'm a London native who left my home to explore the world slowly and thoroughly through my love of food! I’m just a little obsessed with photography, ice-skating, and starting books I have no intention of finishing."</p2></div>
+  </div>
+</div>	
         </header>
 
 
@@ -60,7 +64,7 @@
           <img src="https://wallpaperscraft.com/image/fruit_vegetables_fish_garnish_lemon_food_74301_1920x1080.jpg" alt="Avatar" class="image" style="width:100%">
           <div class="text">A taste of America</div>
   <!--<div class="text">Caption Text</div>-->
-</div>
+    </div>
 
 <div class="mySlides fade">
   <!--<div class="numbertext">2 / 3</div>-->
@@ -141,6 +145,14 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
+}
+function myFunction() {
+    var x = document.getElementById('myDIV');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
 }
 </script>
 </body>
